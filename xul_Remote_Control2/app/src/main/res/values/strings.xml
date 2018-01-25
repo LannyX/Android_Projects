@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">xul_Remote_Control_II</string>
+
+    <string name="my_tv">My TV</string>
+    <string name="tv_power">TV Power:</string>
+    <string name="tv_on">On</string>
+    <string name="tv_off">Off</string>
+    <string name="tv_vol">Speaker Volume:</string>
+    <string name="tv_vol_50">50</string>
+    <string name="tv_chan">Current Channel:</string>
+    <string name="tv_187">187</string>
+    <string name="tv_app">My Remote Control</string>
+    <string name="power_switch">Power</string>
+    <string name="vol_ctr">Volume</string>
+    <string name="chan_pad">Channel</string>
+    <string name="buttodvr">SWITCH TO DVR</string>
+    <string name="buttoconfig">CONFIGURE</string>
+
+    <string name="but0">0</string>
+    <string name="but1">1</string>
+    <string name="but2">2</string>
+    <string name="but3">3</string>
+    <string name="but4">4</string>
+    <string name="but5">5</string>
+    <string name="but6">6</string>
+    <string name="but7">7</string>
+    <string name="but8">8</string>
+    <string name="but9">9</string>
+    <string name="chplus">CH+</string>
+    <string name="chminus">CH-</string>
+    <string name="fav">Favorite \nChannel</string>
+    <string name="fav1">ESPN</string>
+    <string name="fav2">NBA</string>
+    <string name="fav3">ABC</string>
+
+    <string name="butplay">PLAY</string>
+    <string name="butstop">STOP</string>
+    <string name="butpause">PAUSE</string>
+    <string name="butff">FAST FORWARD</string>
+    <string name="butfr">FAST REWIND</string>
+    <string name="butre">RECORD</string>
+    <string name="buttotv">SWITCH TO TV</string>
+
+
+    <string name="my_dvr">My DVR</string>
+    <string name="dvr_power">DVR Power:</string>
+    <string name="dvr_on">On</string>
+    <string name="dvr_off">Off</string>
+
+    <string name="dvr_state">State:</string>
+    <string name="dvr_play">Playing</string>
+    <string name="dvr_stop">Stopped</string>
+    <string name="dvr_pause">Paused</string>
+    <string name="dvr_ff">Fast Forwarding</string>
+    <string name="dvr_fr">Fast Rewarding</string>
+    <string name="dvr_re">Recording</string>
+    <string name="dvr_app">DVR Remote Control</string>
+
+
+    <string name="conf_app">Configure Favorite Channels</string>
+    <string name="FCB">Favorite\nChannel\nButton</string>
+    <string name="config_left">Left</string>
+    <string name="config_mid">Middle</string>
+    <string name="config_right">Right</string>
+    <string name="lable">Lable</string>
+    <string name="fav_chan">0</string>
+    <string name="fav_cancel">CANCEL</string>
+    <string name="fav_save">SAVE</string>
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.depaul.csc472.lanny.xul_remote_control_ii.ActivityConfig"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:columnCount="4"
+        android:useDefaultMargins="true">
+
+        <TextView
+            android:layout_columnSpan="4"
+            android:layout_gravity="center"
+            android:text="@string/conf_app"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_width="382dp" />
+
+        <TextView android:text="@string/FCB" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_columnSpan="3"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RadioButton
+                android:id="@+id/confLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.11"
+                android:text="@string/config_left" />
+
+            <RadioButton
+                android:id="@+id/confMid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.07"
+                android:text="@string/config_mid" />
+
+            <RadioButton
+                android:id="@+id/confRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.15"
+                android:text="@string/config_right" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="@string/lable" />
+
+        <EditText
+            android:id="@+id/lableName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill"
+            android:layout_marginRight="30dp"
+            android:imeOptions="actionDone"
+            android:inputType="text|textCapCharacters" />
+
+        <TextView android:text="@string/chan_pad" />
+
+        <TextView
+            android:id="@+id/fav_Chan"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:text="@string/fav_chan" />
+
+        <Space />
+
+        <Button
+            android:id="@+id/cbut0"
+            android:text="@string/but0"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cbut1"
+            android:text="@string/but1"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cbut2"
+            android:text="@string/but2"
+            android:textSize="12dp" />
+
+        <Space />
+
+        <Button
+            android:id="@+id/cbut3"
+            android:text="@string/but3"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cbut4"
+            android:text="@string/but4"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cbut5"
+            android:text="@string/but5"
+            android:textSize="12dp" />
+
+        <Space />
+
+        <Button
+            android:id="@+id/cbut6"
+            android:text="@string/but6"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cbut7"
+            android:text="@string/but7"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cbut8"
+            android:text="@string/but8"
+            android:textSize="12dp" />
+
+        <Space />
+
+        <Button
+            android:id="@+id/cbut9"
+            android:text="@string/but9"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cchplus"
+            android:text="@string/chplus"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/cchminus"
+            android:text="@string/chminus"
+            android:textSize="12dp" />
+
+        <Space />
+
+        <Space />
+
+        <Button
+            android:id="@+id/fav_Cancel"
+            android:text="@string/fav_cancel"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/fav_Save"
+            android:text="@string/fav_save"
+            android:textSize="12dp" />
+    </GridLayout>
+
+
+</LinearLayout>
